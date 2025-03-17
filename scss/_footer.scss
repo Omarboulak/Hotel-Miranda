@@ -1,0 +1,120 @@
+@use 'variables';
+
+.footer{
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+        font-family: 'Archivo';
+        font-weight: 700;
+    }
+
+    &__logo-letter {
+        font-size: 40px !important;
+        color: #ffff;
+        padding: 1rem 1.5rem;
+        background-color: variables.$dorado;
+        font-size: 20px;
+        box-shadow: 0px 14px 24px 0px #8B8B8B26;
+    }
+
+    &__logo-name{
+        color: #111111;
+        font-size: 26px;
+        letter-spacing: 2.6px;
+        span{
+            font-weight: 400;
+        }
+    }
+
+    &__text p{
+        margin: 3rem 0;
+        font-size: 16px;
+        font-family: 'Archivo';
+        font-weight: 400;
+        color: #777777;
+        line-height: 26px;
+    }
+
+    &__social{
+        margin-bottom: 2rem;
+        img{
+            padding-right: 1.5rem;
+        }
+    }
+
+    &__services{
+        h5{
+            font-family: 'Old Standard TT';
+            font-weight: 400;
+            font-size: 24px;
+            color: #222222;
+            margin-bottom: 1.5rem;
+
+        }
+
+        &--list{
+            display: flex;
+            justify-content: space-around;
+            
+            ul li{
+                font-family: 'Roboto';
+                font-weight: 400;
+                list-style: none;
+                font-size: 16px;
+                line-height: 48px;
+                color: #777777;
+
+            }
+        }
+    }
+
+    &__contact{
+        margin-top: 3rem;
+        h5{
+            font-family: 'Old Standard TT';
+            font-weight: 400;
+            font-size: 24px;
+            color: #222222;
+            margin-bottom: 1.5rem;
+        }
+        &--info{ 
+            margin-bottom: 4rem;
+            display: flex;
+            gap: 1rem;
+            color: #222222;
+            font-family: 'Old Standard TT';
+            font-weight: 400;
+            font-size: 20px;
+            p:last-of-type{
+                color: #777777;
+                font-family: 'Roboto';
+                font-size: 14px;
+            }    
+        }
+    }
+
+
+    &__copy{
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: -0.48px;
+        color: #222222;
+        line-height: 100%;
+        background-color: #F8F8F8;
+        padding: 2rem;
+
+        p:first-of-type{
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.footer > div{
+    padding: 0 1.5rem;
+}
+
+.footer > div:last-of-type{
+    padding: 1.5rem ;
+}

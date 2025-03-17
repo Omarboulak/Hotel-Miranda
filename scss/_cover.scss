@@ -1,0 +1,38 @@
+@use 'variables';
+
+.cover {
+    background-color: #333333;
+    color: #ffff;
+    position: relative;
+    padding: 3rem 2rem;
+    font-family: 'Archivo';
+    font-weight: 700;
+
+    h1{
+        font-family: 'Old Standard TT';
+        font-weight: 400;
+        font-size: 56px;
+    }
+
+    &__card{
+        background-color: #ffff;
+        padding: 1rem;
+        position: absolute;
+        bottom: 0;
+        right: 2rem;
+        color: #333333;
+        font-size: 16px;
+
+        span{
+            color: variables.$dorado;
+        }
+    }
+}
+
+.cover > p:first-of-type {
+    font-family: 'Archivo';
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2.8px;
+    margin-bottom: 0.5rem;
+}
