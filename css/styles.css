@@ -215,6 +215,26 @@
   padding: 1.5rem;
 }
 
+.infoContact {
+  padding-left: 2rem;
+  margin-top: 3rem;
+}
+.infoContact__contact {
+  margin-bottom: 6rem;
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
+.infoContact__contact p:first-of-type {
+  font-size: 20px;
+  color: #222222;
+  font-family: "Old Standard TT";
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;

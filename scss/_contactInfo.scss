@@ -1,0 +1,23 @@
+@use 'mixins';
+
+.infoContact {
+    padding-left: 2rem;
+    margin-top: 3rem;
+
+    &__contact {
+        margin-bottom: 6rem;
+        display: flex;
+        align-items: start;
+        gap: 1rem;
+        color: #777777;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+
+        p:first-of-type {
+            font-size: 20px;
+            color: #222222;
+            font-family: 'Old Standard TT';
+        }
+    }
+}
