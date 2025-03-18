@@ -1,0 +1,14 @@
+@use 'variables';
+
+@mixin button{
+    padding: 1rem 6rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFF;
+    background-color: variables.$dorado;
+    border: 0;
+}    
