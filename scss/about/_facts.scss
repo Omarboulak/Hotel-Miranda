@@ -1,0 +1,58 @@
+@use '../variables';
+.facts {
+    margin-bottom: 4rem;
+    padding: 0 1rem;
+
+    &__counter {
+        font-family: 'Archivo';
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 2.8px;
+        color: #777777;
+    }
+
+    h2 {
+        font-family: 'Old Standard TT';
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+        color: #222222;
+        margin: 2rem 0 4rem;
+    }
+
+    &__things {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+
+        p {
+            font-family: 'Old Standard TT';
+            font-weight: 400;
+            font-size: 60px;
+            letter-spacing: -1.8px;
+            color: #222222;
+        }
+
+        p:last-of-type {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            letter-spacing: 0px;
+            color: #777777;
+        }
+    }
+
+    &__img {
+        height: 15rem;
+        background-color: #E5E5E5;
+        margin: 0 auto 2rem;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: variables.$dorado;
+    }
+
+}
