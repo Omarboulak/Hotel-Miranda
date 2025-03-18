@@ -1,0 +1,37 @@
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
+    width: 90%;
+    margin: 0 auto 3rem;
+    place-items: center;
+
+    div {
+        text-align: center;
+        transition: background-color 0.3s ease, filter 0.3s ease;
+        padding: 3rem 0.5rem;
+        width: 100%;
+
+        &:hover {
+            background-color: #BEAD8E;
+
+            p {
+                color: #FFFF;
+            }
+
+            img {
+                filter: brightness(0) invert(1);
+            }
+        }
+
+        p {
+            font-family: 'Archivo';
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 2.4px;
+            text-transform: uppercase;
+            color: #222222;
+        }
+    }
+}

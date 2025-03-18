@@ -31,58 +31,9 @@
     // background-image: url(../../img/hotel/hotel.jpg);
     // background-repeat: no-repeat;
     // background-size: contain;
-    background-color: #777777;
+    background-color: #E5E5E5;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
 
 
-.form {
-    margin-bottom: 6rem;
-
-    &__contact {
-        position: relative;
-        width: 80%;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-
-        input, textarea {
-            width: 100%;
-            background-color: #F8F8F8;
-            border: 0;
-            padding: 1rem 0 1rem 4rem;
-        }
-
-        input::placeholder, textarea::placeholder {
-            font-family: 'Roboto' !important;
-            font-weight: 400;
-            font-size: 16px;
-            color: #777777;
-        }
-
-        img{
-            position: absolute;
-            left: 1rem;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        &--message{
-            height: 16rem;
-            padding-top: 1rem;
-            text-align: start;
-        }
-
-        &--pen{
-            top: 1.6rem !important;
-        }
-    }
-
-    &__submit{
-        text-align: center;
-        width: 100%;
-        button{
-            @include button.button
-        }
-    }
-}
