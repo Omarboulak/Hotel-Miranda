@@ -1,0 +1,349 @@
+.header {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+.header__logo button {
+  padding-right: 1.5rem;
+  border: 0;
+  background-color: transparent;
+}
+.header__logo-letter {
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.2509803922);
+  font-weight: bold;
+}
+.header__icons img {
+  padding-left: 1rem;
+}
+
+.cover {
+  background-color: #333333;
+  color: white;
+  position: relative;
+  padding: 3rem 2rem;
+  font-family: "Archivo";
+  font-weight: 700;
+}
+.cover h1 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 56px;
+}
+.cover__card {
+  background-color: white;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 2rem;
+  color: #333333;
+  font-size: 16px;
+}
+.cover__card span {
+  color: #BEAD8E;
+}
+
+.cover > p:first-of-type {
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2.8px;
+  margin-bottom: 0.5rem;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-family: "Archivo";
+  font-weight: 700;
+}
+.footer__logo-letter {
+  font-size: 40px !important;
+  color: white;
+  padding: 1rem 1.5rem;
+  background-color: #BEAD8E;
+  font-size: 20px;
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.1490196078);
+}
+.footer__logo-name {
+  color: #111111;
+  font-size: 26px;
+  letter-spacing: 2.6px;
+}
+.footer__logo-name span {
+  font-weight: 400;
+}
+.footer__text p {
+  margin: 3rem 0;
+  font-size: 16px;
+  font-family: "Archivo";
+  font-weight: 400;
+  color: #777777;
+  line-height: 26px;
+}
+.footer__social {
+  margin-bottom: 2rem;
+}
+.footer__social img {
+  padding-right: 1.5rem;
+}
+.footer__services h5 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 1.5rem;
+}
+.footer__services--list {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__services--list ul li {
+  font-family: "Roboto";
+  font-weight: 400;
+  list-style: none;
+  font-size: 16px;
+  line-height: 48px;
+  color: #777777;
+}
+.footer__contact {
+  margin-top: 3rem;
+}
+.footer__contact h5 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 1.5rem;
+}
+.footer__contact--info {
+  margin-bottom: 4rem;
+  display: flex;
+  gap: 1rem;
+  color: #222222;
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 20px;
+}
+.footer__contact--info p:last-of-type {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.footer__copy {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.48px;
+  color: #222222;
+  line-height: 100%;
+  background-color: #F8F8F8;
+  padding: 2rem;
+}
+.footer__copy p:first-of-type {
+  margin-bottom: 2rem;
+}
+
+.footer > div {
+  padding: 0 1.5rem;
+}
+
+.footer > div:last-of-type {
+  padding: 1.5rem;
+}
+
+.room {
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.room__img {
+  width: 90%;
+  height: 15rem;
+  background-color: #E9E9E9;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 3rem;
+}
+.room__information {
+  padding: 0.8rem 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.0509803922);
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: white;
+  width: 80%;
+}
+.room__information img {
+  padding-left: 0.8rem;
+}
+.room h4 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -0.72px;
+  margin-bottom: 0.8rem;
+}
+.room p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+  padding: 0 2rem;
+  line-height: 24px;
+}
+.room__price p:last-of-type {
+  color: #BEAD8E;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 16px;
+}
+.room__price p:last-of-type span {
+  color: #BDBDBD;
+  padding-left: 1rem;
+}
+
+.infoRoom {
+  margin-top: 3rem;
+  padding: 1rem;
+}
+.infoRoom p:first-of-type {
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: #777777;
+}
+.infoRoom h3 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: -1.44px;
+  margin: 1rem 0 2rem;
+}
+.infoRoom__price {
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 32px;
+  color: #BEAD8E;
+}
+.infoRoom__price span {
+  font-size: 13;
+}
+.infoRoom__img {
+  height: 15rem;
+  background-color: #E5E5E5;
+  margin: 1.5rem auto 3rem;
+}
+
+.check {
+  font-family: "Archivo";
+  font-weight: 700;
+  color: #222222;
+  padding: 2.5rem;
+}
+.check p {
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.check label {
+  font-size: 14px;
+}
+.check input {
+  width: 100%;
+  background-color: #F8F8F8;
+  border: 0;
+  padding: 1rem 1rem;
+  margin: 1rem 0;
+}
+.check input[type=date]::-webkit-calendar-picker-indicator {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../../img/roomDetails/calendar.svg") no-repeat right 10px center;
+  background-size: 20px;
+  padding-right: 30px;
+}
+.check button {
+  padding: 1.3rem 3rem;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #BEAD8E;
+  border: 0;
+  font-size: 14px;
+  margin-top: 1.5rem;
+}
+
+.detail {
+  padding: 0 1rem;
+  margin-bottom: 3rem;
+}
+.detail p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+
+.amenities {
+  padding: 0 1rem;
+  margin-bottom: 5rem;
+}
+.amenities h4 {
+  font-family: " Old Standard TT";
+  font-weight: 400;
+  font-size: 30px;
+  color: #222222;
+  margin-bottom: 1rem;
+}
+.amenities hr {
+  border: none;
+  height: 1.5px;
+  background-color: #F1F1F1;
+}
+.amenities__include {
+  margin-top: 4rem;
+}
+.amenities__include ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+.amenities__include ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+html, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+/*# sourceMappingURL=details.css.map */

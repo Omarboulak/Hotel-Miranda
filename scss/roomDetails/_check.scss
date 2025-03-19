@@ -1,0 +1,54 @@
+@use '../button';
+
+.check {
+    font-family: 'Archivo';
+    font-weight: 700;
+    color: #222222;
+    padding: 2.5rem;
+
+    p {
+        font-size: 18px;
+        letter-spacing: -0.54px;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        background-color: #F8F8F8;
+        border: 0;
+        padding: 1rem 1rem;
+        margin: 1rem 0;
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url('../../img/roomDetails/calendar.svg') no-repeat right 10px center;
+        background-size: 20px;
+        padding-right: 30px;
+    }
+
+    button {
+        @include button.button;
+        font-size: 14px;
+        margin-top: 1.5rem;
+    }
+}
+
+.detail {
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+    p {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #777777;
+    }
+}

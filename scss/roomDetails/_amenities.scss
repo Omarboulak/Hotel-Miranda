@@ -1,0 +1,36 @@
+.amenities {
+    padding: 0 1rem;
+    margin-bottom: 5rem;
+
+    h4 {
+        font-family: ' Old Standard TT';
+        font-weight: 400;
+        font-size: 30px;
+        color: #222222;
+        margin-bottom: 1rem;
+    }
+
+    hr {
+        border: none;
+        height: 1.5px;
+        background-color: #F1F1F1;
+    }
+
+    &__include {
+        margin-top: 4rem;
+
+        ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 1rem;
+
+            li {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+        }
+    }
+}
