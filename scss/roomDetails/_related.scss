@@ -1,0 +1,48 @@
+@use '../variables';
+
+.related{
+   margin-bottom: 4rem;
+   
+    h4 {
+        font-family: 'Old Standard TT';
+        font-weight: 400;
+        font-size: 30px;
+        color: #222222;
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+    }
+
+    hr {
+        border: none;
+        height: 1.5px;
+        background-color: #F1F1F1;
+        padding: 0 1rem;
+    }
+
+
+    &__next {
+        color: #FFFFFF;
+        background-color: variables.$dorado;
+        padding: 1.5rem;
+        top: 30% !important;
+        right: .6rem !important;
+    }
+
+    &__prev {
+        background-color: #FFFFFF;
+        padding: 1.5rem;
+        top: 30% !important;
+        left: .6rem !important;
+    }
+
+    .swiper-button-prev::after {
+        font-size: 0.5rem;
+        color: #111111;
+    }
+    
+    .swiper-button-next::after {
+        font-size: .5rem;
+        color: #FFFFFF;
+        
+    }
+}

@@ -5,6 +5,9 @@
 @use 'infoRoom';
 @use 'check';
 @use 'amenities';
+@use 'user';
+@use 'cancel';
+@use 'related';
 
 html, * { box-sizing: border-box; margin: 0; padding: 0 }
 body { min-width: 320px }

@@ -37,27 +37,27 @@
         margin-bottom: 0.8rem;
     }
 
-    p {
+    p:first-of-type {
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
-        margin-bottom: 0.5rem;
+        margin-bottom: .7rem;
         padding: 0 2rem;
-        line-height: 24px;
+        color: #777777;
     }
 
     &__price {
-        p:last-of-type {
-            color: variables.$dorado;
-            font-family: 'Archivo';
-            font-weight: 700;
-            font-size: 16px;
-
-            span {
-                color: #BDBDBD;
-                padding-left: 1rem;
-            }
+        color: variables.$dorado;
+        font-family: 'Archivo';
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 0.5rem;
+        padding: 0 2rem;
+    
+        span {
+            color: #BDBDBD ;
+            padding-left: 1rem;
         }
-
     }
 }
+
