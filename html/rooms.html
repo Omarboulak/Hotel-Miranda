@@ -8,28 +8,45 @@
     <link rel="stylesheet" href="../css/rooms.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 
 </head>
 
 <body>
     <header class="header">
-        <div class="header__logo">
-            <button><img src="../img/menu.png" alt="icono del menu"></button>
-            <p class="header__logo-letter">H</p>
-            <div class="header__logo__hotel">
-                <p><strong>HOTEL</strong></p>
-                <p>MIRANDA</p>
+        <div class="header__container">
+            <div class="header__logo">
+                <button id="menu_movile">
+                    <img src="../img/menu.png" alt="icono del menu" class="menu" id="menu">
+                </button>
+                <p class="header__logo-letter">H</p>
+                <div class="header__logo__hotel">
+                    <p><strong>HOTEL</strong></p>
+                    <p>MIRANDA</p>
+                </div>
+            </div>
+
+            <div class="header__icons">
+                <img src="../img/account.png" alt="icono de una persona">
+                <img src="../img/search.png" alt="icono de una lupa">
             </div>
         </div>
 
-        <div class="header__icons">
-            <img src="../img/account.png" alt="icono de una persona">
-            <img src="../img/search.png" alt="icono de una lupa">
-        </div>
+        <nav id="nav_open" class="nav_invisible">
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -41,7 +58,7 @@
             </div>
         </div> <!-- fin cover-->
 
-        
+
         <div class="room">
             <div class="room__img">
                 <img src="" alt="">
@@ -59,7 +76,7 @@
             <h4>Minimal Duplex Room</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
             <p class="room__price">$345/Night <span>Booking Now</span></p>
-        </div><!-- fin room--> 
+        </div><!-- fin room-->
 
         <div class="room">
             <div class="room__img">
@@ -78,7 +95,7 @@
             <h4>Minimal Duplex Room</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
             <p>$345/Night <span>Booking Now</span></p>
-        </div><!-- fin room--> 
+        </div><!-- fin room-->
 
         <div class="room">
             <div class="room__img">
@@ -97,7 +114,7 @@
             <h4>Minimal Duplex Room</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
             <p>$345/Night <span>Booking Now</span></p>
-        </div><!-- fin room--> 
+        </div><!-- fin room-->
 
         <div class="room">
             <div class="room__img">
@@ -116,7 +133,7 @@
             <h4>Minimal Duplex Room</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
             <p>$345/Night <span>Booking Now</span></p>
-        </div><!-- fin room--> 
+        </div><!-- fin room-->
 
         <div class="room">
             <div class="room__img">
@@ -135,7 +152,7 @@
             <h4>Minimal Duplex Room</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
             <p>$345/Night <span>Booking Now</span></p>
-        </div><!-- fin room--> 
+        </div><!-- fin room-->
 
         <div class="room">
             <div class="room__img">
@@ -154,7 +171,7 @@
             <h4>Minimal Duplex Room</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
             <p>$345/Night <span>Booking Now</span></p>
-        </div><!-- fin room--> 
+        </div><!-- fin room-->
     </main>
 
     <footer class="footer">
@@ -166,7 +183,8 @@
             </div>
         </div><!--fin footer logo-->
         <div class="footer__text">
-            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
+            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
         </div>
 
         <div class="footer__social">
@@ -191,7 +209,7 @@
                 <ul>
                     <li>+ Gaming Zone </li>
                     <li>+ Marrige Party </li>
-                    <li>+ Party Planning </li>  
+                    <li>+ Party Planning </li>
                     <li>+ Tour Consultancy</li>
                 </ul>
             </div>
@@ -224,10 +242,11 @@
 
         <div class="footer__copy">
             <p>Copyright By@Example - 2020</p>
-            <p>Terms of use    |    Privacy Environmental Policy</p>
+            <p>Terms of use | Privacy Environmental Policy</p>
         </div>
     </footer>
-    
+
+    <script src="../js/menu.js"></script>
 </body>
 
 </html>
