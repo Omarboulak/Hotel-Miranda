@@ -1,0 +1,30 @@
+.caracteristics {
+    background-color: #222222;
+    padding: 3rem 0 1rem;
+    margin-bottom: 4rem;
+
+    &__contain {
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 700;
+        margin-bottom: 3.5rem;
+
+        img {
+            margin-bottom: 1rem;
+        }
+
+        p:first-of-type {
+            font-size: 60px;
+            color: #FFFFFF;
+
+            span{
+                font-size: 16px;
+            }
+        }
+
+        p:last-child {
+            font-size: 16px;
+            color: #999999;
+        }
+    }
+}

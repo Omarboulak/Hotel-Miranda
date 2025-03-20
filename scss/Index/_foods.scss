@@ -1,0 +1,84 @@
+@use '../variables';
+
+.foods {
+    padding: 0 1rem;
+    margin-bottom: 8rem;
+
+    &__menu {
+        margin-top: 2rem;
+        display: flex;
+        gap: 2rem;
+
+        &__img {
+            height: 7.5rem;
+            width: -webkit-fill-available;
+            background-color: #DBDBDB;
+        }
+
+        &__description {
+            color: #222222;
+            font-weight: 400;
+            line-height: 24px;
+            padding-top: 0.5rem;
+
+            p:first-of-type {
+                font-family: 'Old Standard TT';
+                font-size: 24px;
+                letter-spacing: -0.72px;
+                margin-bottom: 1rem;
+            }
+
+            p:last-of-type {
+                font-family: 'Roboto';
+                font-size: 14px;
+            }
+        }
+    }
+
+    &__menu:last-of-type {
+        margin-bottom: 6rem;
+    }
+
+    .swiper {
+        .swiper-button-next {
+            color: #FFFFFF;
+            background-color: variables.$dorado;
+            padding: 1.5rem;
+            bottom: 1rem;
+            top: inherit;
+            right: .6rem !important;
+        }
+
+        .swiper-button-prev {
+            background-color: #F8F8F8;
+            padding: 1.5rem;
+            bottom: 1rem;
+            top: inherit;
+            right: 5.6rem !important;
+            left: inherit;
+        }
+
+        .swiper-button-prev::after {
+            font-size: 0.5rem;
+            color: #111111;
+        }
+
+        .swiper-button-next::after {
+            font-size: .5rem;
+            color: #FFFFFF;
+        }
+
+        .swiper-pagination-bullet-active{
+            background-color: variables.$dorado;
+        }
+    }
+
+    &__images{
+        margin-top: 3rem;
+        &__img{
+            width: 100%;
+            height: 23rem;
+            background-color: #DBDBDB;
+        }
+    }
+}
