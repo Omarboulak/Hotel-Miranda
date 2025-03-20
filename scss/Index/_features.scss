@@ -1,0 +1,55 @@
+.features {
+    padding: 3rem 1rem;
+    margin-bottom: 4rem;
+
+    &__title {
+        text-align: center;
+
+        p {
+            margin-bottom: 1rem;
+            font-family: 'Archivo';
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 2.8px;
+        }
+
+        p:last-of-type {
+            font-family: 'Old Standard TT';
+            font-weight: 400;
+            font-size: 56px;
+            letter-spacing: -1.2px;
+        }
+    }
+
+    &__cont {
+        font-weight: 400;
+        position: relative;
+        padding: 5rem 1rem;
+
+        p:first-of-type {
+            font-family: 'Old Standard TT';
+            font-size: 30px;
+            margin-top: 1.5rem;
+            color: #222222;
+        }
+
+        &__lorem {
+            font-family: 'Archivo';
+            font-size: 14px;
+            line-height: 24px;
+            margin-top: 1.5rem;
+            padding-right: 2rem;
+            color: #777777;
+        }
+
+        p:last-of-type {
+            font-family: 'Archivo';
+            font-weight: 700;
+            font-size: 120px;
+            color: #2222220A;
+            position: absolute;
+            top: 0rem;
+            right: 1rem;
+        }
+    }
+}

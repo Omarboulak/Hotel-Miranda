@@ -1,0 +1,36 @@
+@use '../button';
+@use '../variables';
+
+.date {
+    padding: 3rem 1rem;
+    background-color: #222222;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 7rem;
+
+    label, input{
+        display: block;
+    }
+    label{
+        color: #FFFFFF;
+        margin-bottom: .5rem;
+        margin-top: 1rem   ;
+    }
+
+    input{
+        border: 0;
+        outline: none;
+        border-bottom: 1px solid variables.$dorado;
+        width: 100%;
+        padding-bottom: .5rem;
+        color: #686868;
+        background-color: transparent
+    }
+
+    button{
+        @include button.button;
+        margin-top: 2rem;
+        padding: 1.3rem 2rem;
+    }
+}

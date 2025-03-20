@@ -1,0 +1,35 @@
+@use '../button';
+@use '../variables';
+
+.luxuryPlace {
+    padding: 4rem 1rem;
+    background-color: #222222;
+    margin-bottom: 4rem;
+
+    h6 {
+        color: variables.$dorado;
+    }
+
+    h2 {
+        color: #FFFFFF;
+    }
+
+    p {
+        font-family: 'Archivo';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #C2C2C2;
+    }   
+
+    &__img{
+        height: 18rem;
+        margin: 2rem 0;
+        background-color: #E6E6E6;
+    }
+
+    button{
+        @include button.button;
+    }
+
+}

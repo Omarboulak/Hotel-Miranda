@@ -1,0 +1,525 @@
+.header {
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
+}
+.header__container {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+.header__logo button {
+  padding-right: 1.5rem;
+  border: 0;
+  background-color: transparent;
+}
+.header__logo-letter {
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.2509803922);
+  font-weight: bold;
+}
+.header__icons img {
+  padding-left: 1rem;
+}
+.header .nav_invisible {
+  display: none;
+}
+.header .nav_visible {
+  display: block;
+}
+.header .nav_visible ul {
+  position: relative;
+  background-color: white;
+  padding: 0rem 2rem 1rem;
+}
+.header .nav_visible ul li {
+  padding-top: 1rem;
+  list-style: none;
+}
+.header .nav_visible ul li a {
+  text-decoration: none;
+  font-family: "Archivo";
+  font-weight: 600;
+  font-size: 16px;
+  color: #111111;
+}
+
+.cover {
+  background-color: #333333;
+  color: white;
+  position: relative;
+  padding: 3rem 2rem;
+  font-family: "Archivo";
+  font-weight: 700;
+}
+.cover h1 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 56px;
+}
+.cover__card {
+  background-color: white;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 2rem;
+  color: #333333;
+  font-size: 16px;
+}
+.cover__card span {
+  color: #BEAD8E;
+}
+
+.cover > p:first-of-type {
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2.8px;
+  margin-bottom: 0.5rem;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-family: "Archivo";
+  font-weight: 700;
+}
+.footer__logo-letter {
+  font-size: 40px !important;
+  color: white;
+  padding: 1rem 1.5rem;
+  background-color: #BEAD8E;
+  font-size: 20px;
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.1490196078);
+}
+.footer__logo-name {
+  color: #111111;
+  font-size: 26px;
+  letter-spacing: 2.6px;
+}
+.footer__logo-name span {
+  font-weight: 400;
+}
+.footer__text p {
+  margin: 3rem 0;
+  font-size: 16px;
+  font-family: "Archivo";
+  font-weight: 400;
+  color: #777777;
+  line-height: 26px;
+}
+.footer__social {
+  margin-bottom: 2rem;
+}
+.footer__social img {
+  padding-right: 1.5rem;
+}
+.footer__services h5 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 1.5rem;
+}
+.footer__services--list {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__services--list ul li {
+  font-family: "Roboto";
+  font-weight: 400;
+  list-style: none;
+  font-size: 16px;
+  line-height: 48px;
+  color: #777777;
+}
+.footer__contact {
+  margin-top: 3rem;
+}
+.footer__contact h5 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 1.5rem;
+}
+.footer__contact--info {
+  margin-bottom: 4rem;
+  display: flex;
+  gap: 1rem;
+  color: #222222;
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 20px;
+}
+.footer__contact--info p:last-of-type {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.footer__copy {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.48px;
+  color: #222222;
+  line-height: 100%;
+  background-color: #F8F8F8;
+  padding: 2rem;
+}
+.footer__copy p:first-of-type {
+  margin-bottom: 2rem;
+}
+
+.footer > div {
+  padding: 0 1.5rem;
+}
+
+.footer > div:last-of-type {
+  padding: 1.5rem;
+}
+
+.room {
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.room__img {
+  width: 90%;
+  height: 15rem;
+  background-color: #E9E9E9;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 3rem;
+}
+.room__information {
+  padding: 0.8rem 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.0509803922);
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: white;
+  width: 80%;
+}
+.room__information img {
+  padding-left: 0.8rem;
+}
+.room h4 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -0.72px;
+  margin-bottom: 0.8rem;
+}
+.room p:first-of-type {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0.7rem;
+  padding: 0 2rem;
+  color: #777777;
+}
+.room__price {
+  color: #BEAD8E;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  padding: 0 2rem;
+}
+.room__price span {
+  color: #BDBDBD;
+  padding-left: 1rem;
+}
+
+h6 {
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  color: #777777;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: -1.44px;
+  color: #222222;
+}
+
+h2 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: -1.2px;
+  color: #111111;
+}
+
+.cover {
+  padding: 5rem 2rem;
+}
+.cover h1 {
+  margin: 2rem 0 3rem;
+}
+.cover button {
+  padding: 1.3rem 3rem;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #BEAD8E;
+  border: 0;
+}
+.cover .cover__more {
+  border: 2px solid rgba(255, 255, 255, 0.3294117647);
+  background-color: transparent;
+  margin-top: 1rem;
+}
+
+.date {
+  padding: 3rem 1rem;
+  background-color: #222222;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 7rem;
+}
+.date label, .date input {
+  display: block;
+}
+.date label {
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+.date input {
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #BEAD8E;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  color: #686868;
+  background-color: transparent;
+}
+.date button {
+  padding: 1.3rem 3rem;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #BEAD8E;
+  border: 0;
+  margin-top: 2rem;
+  padding: 1.3rem 2rem;
+}
+
+.discover > p:first-of-type {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  color: #777777;
+}
+
+.discover {
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+.discover button {
+  padding: 1.3rem 3rem;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #BEAD8E;
+  border: 0;
+}
+.discover__team, .discover__luxury {
+  padding: 0 1rem;
+  text-align: center;
+  color: #111111;
+  margin: 3rem 0 7rem;
+}
+.discover__team__img, .discover__luxury__img {
+  width: 100%;
+  height: 20rem;
+  background-color: #E4E4E4;
+  margin-bottom: 2rem;
+}
+.discover__team__strong, .discover__luxury__strong {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  margin: 1rem 0;
+}
+.discover__team p:last-of-type, .discover__luxury p:last-of-type {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 0 2rem;
+}
+.discover__luxury {
+  margin-bottom: 4rem;
+}
+.discover__luxury__content {
+  background-color: #222222;
+  padding: 2rem 0;
+  color: #FFFFFF;
+}
+.discover__luxury__img {
+  margin-bottom: 0;
+}
+
+.pickedRooms {
+  text-align: center;
+}
+.pickedRooms .room__img {
+  width: 100%;
+}
+.pickedRooms .room__information {
+  top: -1.5rem;
+  bottom: inherit;
+}
+.pickedRooms .swiper .swiper-button-next {
+  color: #FFFFFF;
+  background-color: #BEAD8E;
+  padding: 1.5rem;
+  top: 30% !important;
+  right: 0.6rem !important;
+}
+.pickedRooms .swiper .swiper-button-prev {
+  background-color: #FFFFFF;
+  padding: 1.5rem;
+  top: 30% !important;
+  left: 0.6rem !important;
+}
+.pickedRooms .swiper .swiper-button-prev::after {
+  font-size: 0.5rem;
+  color: #111111;
+}
+.pickedRooms .swiper .swiper-button-next::after {
+  font-size: 0.5rem;
+  color: #FFFFFF;
+}
+
+.luxuryPlace {
+  padding: 4rem 1rem;
+  background-color: #222222;
+  margin-bottom: 4rem;
+}
+.luxuryPlace h6 {
+  color: #BEAD8E;
+}
+.luxuryPlace h2 {
+  color: #FFFFFF;
+}
+.luxuryPlace p {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #C2C2C2;
+}
+.luxuryPlace__img {
+  height: 18rem;
+  margin: 2rem 0;
+  background-color: #E6E6E6;
+}
+.luxuryPlace button {
+  padding: 1.3rem 3rem;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #BEAD8E;
+  border: 0;
+}
+
+.features {
+  padding: 3rem 1rem;
+  margin-bottom: 4rem;
+}
+.features__title {
+  text-align: center;
+}
+.features__title p {
+  margin-bottom: 1rem;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+}
+.features__title p:last-of-type {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: -1.2px;
+}
+.features__cont {
+  font-weight: 400;
+  position: relative;
+  padding: 5rem 1rem;
+}
+.features__cont p:first-of-type {
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  margin-top: 1.5rem;
+  color: #222222;
+}
+.features__cont__lorem {
+  font-family: "Archivo";
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 1.5rem;
+  padding-right: 2rem;
+  color: #777777;
+}
+.features__cont p:last-of-type {
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 120px;
+  color: rgba(34, 34, 34, 0.0392156863);
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+}
+
+html, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+/*# sourceMappingURL=index.css.map */

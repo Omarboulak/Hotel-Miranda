@@ -1,0 +1,20 @@
+@use '../button';
+
+.cover{
+    padding: 5rem 2rem;
+
+    h1{
+        margin: 2rem 0 3rem;
+    }
+
+    button{
+        @include button.button
+    }
+
+    .cover &__more{
+        border: 2px solid #FFFFFF54;
+        background-color: transparent;
+        margin-top: 1rem;
+    }
+
+}

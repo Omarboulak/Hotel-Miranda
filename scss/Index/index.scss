@@ -1,0 +1,15 @@
+@use '../header';
+@use '../_cover';
+@use '../footer';
+@use '../room';
+@use '../comun';
+@use 'indexcover';
+@use 'date';
+@use 'discover';
+@use 'pickedRoom';
+@use 'luxuryPlace';
+@use 'features';
+
+html, * { box-sizing: border-box; margin: 0; padding: 0 }
+body { min-width: 320px }
+
