@@ -1,6 +1,7 @@
+@use '../variables';
+
 .features {
     padding: 3rem 1rem;
-    margin-bottom: 4rem;
 
     &__title {
         text-align: center;
@@ -51,5 +52,8 @@
             top: 0rem;
             right: 1rem;
         }
+    }
+    .swiper-pagination-bullet-active{
+        background-color: variables.$dorado;
     }
 }

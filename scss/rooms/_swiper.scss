@@ -1,0 +1,39 @@
+@use '../variables';
+
+.info-rooms{
+    margin-bottom: 4rem;
+
+    .swiper-pagination {
+        display: flex;
+        justify-content: center;
+        gap: .5rem;
+        font-family: 'Oswald';
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .swiper-pagination-bullet {
+        border-radius: 0;
+        background-color: transparent;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #222222;
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active{
+        background-color: variables.$dorado;
+        border-radius: 0;
+        color: #FFFFFF;
+    }
+
+    .swiper-button-prev:after, .swiper-button-next:after{
+        content: '';
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        top: inherit;
+        bottom: 0;
+    }
+}

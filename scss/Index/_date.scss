@@ -25,7 +25,8 @@
         width: 100%;
         padding-bottom: .5rem;
         color: #686868;
-        background-color: transparent
+        background-color: transparent;
+        padding-left: 1.5rem;
     }
 
     button{
@@ -33,4 +34,11 @@
         margin-top: 2rem;
         padding: 1.3rem 2rem;
     }
+
+    input::-webkit-calendar-picker-indicator {
+        filter: invert(0.5) sepia(1);
+        position: absolute;
+        left: 1rem;
+    }
+      
 }

@@ -1,4 +1,7 @@
 .header {
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
+}
+.header__container {
   width: 100%;
   padding: 1rem;
   display: flex;
@@ -21,9 +24,33 @@
   font-size: 20px;
   box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.2509803922);
   font-weight: bold;
+  text-decoration: none;
+  color: #222222;
 }
 .header__icons img {
   padding-left: 1rem;
+}
+.header .nav_invisible {
+  display: none;
+}
+.header .nav_visible {
+  display: block;
+}
+.header .nav_visible ul {
+  position: relative;
+  background-color: white;
+  padding: 0rem 2rem 1rem;
+}
+.header .nav_visible ul li {
+  padding-top: 1rem;
+  list-style: none;
+}
+.header .nav_visible ul li a {
+  text-decoration: none;
+  font-family: "Archivo";
+  font-weight: 600;
+  font-size: 16px;
+  color: #111111;
 }
 
 .cover {
@@ -195,21 +222,23 @@
   letter-spacing: -0.72px;
   margin-bottom: 0.8rem;
 }
-.room p {
+.room p:first-of-type {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
   padding: 0 2rem;
-  line-height: 24px;
+  color: #777777;
 }
-.room__price p:last-of-type {
+.room__price {
   color: #BEAD8E;
   font-family: "Archivo";
   font-weight: 700;
   font-size: 16px;
+  margin-bottom: 0.5rem;
+  padding: 0 2rem;
 }
-.room__price p:last-of-type span {
+.room__price span {
   color: #BDBDBD;
   padding-left: 1rem;
 }

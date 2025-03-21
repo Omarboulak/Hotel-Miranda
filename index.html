@@ -25,7 +25,7 @@
                 <button id="menu_movile">
                     <img src="img/menu.png" alt="icono del menu" class="menu" id="menu">
                 </button>
-                <p class="header__logo-letter">H</p>
+                <a href="index.html" class="header__logo-letter"><p >H</p></a>
                 <div class="header__logo__hotel">
                     <p><strong>HOTEL</strong></p>
                     <p>MIRANDA</p>
@@ -40,10 +40,10 @@
 
         <nav id="nav_open" class="nav_invisible">
             <ul>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="rooms.html">Rooms</a></li>
-                <li><a href="offers.html">Offers</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="html/about.html">About Us</a></li>
+                <li><a href="html/rooms.html">Rooms</a></li>
+                <li><a href="html/offers.html">Offers</a></li>
+                <li><a href="html/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -86,7 +86,9 @@
             </div>
 
             <div class="discover__luxury">
-                <div class="discover__luxury__img"></div>
+                <div class="discover__luxury__img">
+                    <img src="img/rooms/luxury-room.jpg" alt="habitacion de lujo" class="room-img">
+                </div>
                 <div class="discover__luxury__content">
                     <img src="img/index/luxury.svg" alt="icono de un calendario">
                     <p class="discover__luxury__strong">Luxury Room</p>
@@ -95,7 +97,6 @@
 
             </div>
         </div>
-
 
         <div class="pickedRooms">
             <h6>ROOMS</h6>
@@ -106,7 +107,7 @@
                     <div class="swiper-slide">
                         <div class="room">
                             <div class="room__img">
-                                <img src="" alt="">
+                                <img src="img/rooms/double-bed.jpg" alt="" class="room-img">
 
                                 <div class="room__information">
                                     <img src="img/bed.svg" alt="icono de una cama">
@@ -127,7 +128,7 @@
                     <div class="swiper-slide">
                         <div class="room">
                             <div class="room__img">
-                                <img src="" alt="">
+                                <img src="img/rooms/room.jpg" alt="" class="room-img">
 
                                 <div class="room__information">
                                     <img src="img/bed.svg" alt="icono de una cama">
@@ -160,7 +161,9 @@
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                 ex ea commodo consequat you have to understand this.</p>
 
-            <div class="luxuryPlace__img"></div>
+            <div class="luxuryPlace__img">
+                <img src="img/rooms/luxury-room.jpg" alt=""  class="room-img">
+            </div>
             <button>Book Now</button>
         </div>
 
@@ -169,17 +172,81 @@
                 <p>FACILITIES</p>
                 <p>Core Features</p>
             </div>
-            <div class="features__cont">
-                <img src="img/about/rating.svg" alt="">
-                <p>Have High Rating</p>
-                <p class="features__cont__lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed
-                    do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                <p>01</p>
+            <div class="swiper">
+
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="features__cont">
+                        <img src="img/about/rating.svg" alt="">
+                        <p>Have High Rating</p>
+                        <p class="features__cont__lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed
+                            do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        <p>01</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="features__cont">
+                        <img src="img/index/hours.svg" alt="">
+                        <p>Quiet Hours</p>
+                        <p class="features__cont__lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed
+                            do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        <p>02</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="features__cont">
+                        <img src="img/index/location.svg" alt="">
+                        <p>Best Locations</p>
+                        <p class="features__cont__lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        <p>03</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="features__cont">
+                        <img src="img/index/cancellation.svg" alt="">
+                        <p>Free Cancellation</p>
+                        <p class="features__cont__lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        <p>04</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="features__cont">
+                        <img src="img/index/payments.svg" alt="">
+                        <p>Payment Options</p>
+                        <p class="features__cont__lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        <p>05</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="features__cont">
+                        <img src="img/index/offers.svg" alt="">
+                        <p>Special Offers</p>
+                        <p class="features__cont__lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        <p>06</p>
+                    </div>
+                  </div>
+                </div>
+   
+                <div class="swiper-pagination"></div>
             </div>
         </div>
 
         <div class="foods">
+            <div class="foods__donut">
+                <img src="img/index/donut.svg" alt="imagen de un donut">
+            </div>
+
             <h6>Menu</h6>
             <h2>Our Foods Menu</h2>
 
@@ -188,7 +255,9 @@
                     <div class="swiper-slide">
 
                         <div class="foods__menu">
-                            <div class="foods__menu__img"></div>
+                            <div class="foods__menu__img">
+                                <img src="img/eggs.jpg" alt="" class="room-img"> 
+                            </div>
                             <div class="foods__menu__description">
                                 <p>Eggs & Bacon</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -196,7 +265,9 @@
                         </div>
 
                         <div class="foods__menu">
-                            <div class="foods__menu__img"></div>
+                            <div class="foods__menu__img">
+                                <img src="img/tea.jpg" alt="" class="room-img">
+                            </div>
                             <div class="foods__menu__description">
                                 <p>Tea or Coffee</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -204,7 +275,9 @@
                         </div>
 
                         <div class="foods__menu">
-                            <div class="foods__menu__img"></div>
+                            <div class="foods__menu__img">
+                                <img src="img/oatmeal.jpg" alt="" class="room-img">
+                            </div>
                             <div class="foods__menu__description">
                                 <p>Chia Oatmeal</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -237,7 +310,6 @@
                             </div>
                         </div>
                     </div>
-
 
                     <div class="swiper-slide">
                         <div class="foods__menu">
@@ -277,16 +349,21 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="foods__images__img"></div>
+                            <div class="foods__images__img">
+                                <img src="img/pizza.jpg" alt="" class="room-img">
+                            </div>
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="foods__images__img"></div>
-
+                            <div class="foods__images__img">
+                                <img src="img/pasta.jpg" alt="" class="room-img">
+                            </div>
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="foods__images__img"></div>
+                            <div class="foods__images__img">
+                                <img src="img/tarta.jpg" alt="" class="room-img">
+                            </div>
                         </div>
 
                     </div>
@@ -327,9 +404,6 @@
                 <P>Projects are Completed</P>
             </div>
         </div>
-
-
-
 
         <footer class="footer">
             <div class="footer__logo">

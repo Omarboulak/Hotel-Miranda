@@ -241,6 +241,40 @@
   padding-left: 1rem;
 }
 
+.info-rooms {
+  margin-bottom: 4rem;
+}
+.info-rooms .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-weight: 700;
+}
+.info-rooms .swiper-pagination-bullet {
+  border-radius: 0;
+  background-color: transparent;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222222;
+  opacity: 1;
+}
+.info-rooms .swiper-pagination-bullet-active {
+  background-color: #BEAD8E;
+  border-radius: 0;
+  color: #FFFFFF;
+}
+.info-rooms .swiper-button-prev:after, .info-rooms .swiper-button-next:after {
+  content: "";
+}
+.info-rooms .swiper-button-prev, .info-rooms .swiper-button-next {
+  top: inherit;
+  bottom: 0;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;

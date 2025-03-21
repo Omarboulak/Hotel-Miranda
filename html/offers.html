@@ -23,19 +23,33 @@
 <body>
 
     <header class="header">
-        <div class="header__logo">
-            <button><img src="../img/menu.png" alt="icono del menu"></button>
-            <p class="header__logo-letter">H</p>
-            <div class="header__logo__hotel">
-                <p><strong>HOTEL</strong></p>
-                <p>MIRANDA</p>
+        <div class="header__container">
+            <div class="header__logo">
+                <button id="menu_movile">
+                    <img src="../img/menu.png" alt="icono del menu" class="menu" id="menu">
+                </button>
+
+                <a href="../index.html" class="header__logo-letter"><p >H</p></a>
+                <div class="header__logo__hotel">
+                    <p><strong>HOTEL</strong></p>
+                    <p>MIRANDA</p>
+                </div>
+            </div>
+
+            <div class="header__icons">
+                <img src="../img/account.png" alt="icono de una persona">
+                <img src="../img/search.png" alt="icono de una lupa">
             </div>
         </div>
 
-        <div class="header__icons">
-            <img src="../img/account.png" alt="icono de una persona">
-            <img src="../img/search.png" alt="icono de una lupa">
-        </div>
+        <nav id="nav_open" class="nav_invisible">
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -369,7 +383,7 @@
 
     <script src="../js/swiper.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
+    <script src="../js/menu.js"></script>
 </body>
 
 </html>
