@@ -36,3 +36,14 @@
     letter-spacing: 2.8px;
     margin-bottom: 0.5rem;
 }
+
+
+@media only screen and (min-width: 760px) {
+
+    .cover {
+        padding: 10rem 0 3rem 19%;
+        .card{
+            right: 20%;
+        }
+    }
+}
